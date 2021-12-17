@@ -1,0 +1,148 @@
+*{
+    transition: 0.1s;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    height: 100vh;
+    background-color: #3c3c5e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+span{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.flex{
+    display: flex;
+}
+#stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#status{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+button{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 10px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+button:hover{
+    height: 210px;
+    width: 210px;
+}
+#rock_btn{
+    border-color: #FF8080;
+    background-color: gray;
+    background-size: 130px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/images/rock.png);
+}
+#paper_btn{
+    border-color: #E580FF;
+    background-color: gray;
+    background-size: 130px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/images/paper.png);
+}
+#scissors_btn{
+    border-color: #FFDD55;
+    background-color: gray;
+    background-size: 130px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/images/scissors.png);
+}
+#continue{
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    width: 20%;
+}
+#end{
+    background-color: rgba(0, 0, 0, 0.171);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: none;
+    justify-content: center;
+}
+#prompt{
+    height: 40vh;
+    margin-top: 35vh;    
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+    background-color: #585884;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+#sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 700px) {
+    button{
+        height: 100px;
+        width: 100px;
+        border: 5px solid;
+    }
+    button:hover{
+        height: 110px;
+        width: 110px;
+    }
+    #prompt{
+        height: 100vh;
+        width: 100%;
+    }
+    #rock_btn{
+        background-size: 60px;
+    }
+    #paper_btn{
+        background-size: 60px;
+    }
+    #scissors_btn{
+        background-size: 60px;
+    }
+}
+@media (max-width: 500px) {
+    button{
+        height: 80px;
+        width: 80px;
+        border: 5px solid;
+    }
+    button:hover{
+        height: 90px;
+        width: 90px;
+    }
+    #prompt{
+        height: 100vh;
+        width: 100%;
+    }
+    #rock_btn{
+        background-size: 50px;
+    }
+    #paper_btn{
+        background-size: 50px;
+    }
+    #scissors_btn{
+        background-size: 50px;
+    }
+}

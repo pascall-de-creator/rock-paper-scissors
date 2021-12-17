@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=100, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="/images/scissors.png" type="image/x-icon">
+    <title>Rock Paper Scissors</title>
+</head>
+<body id="main_body">
+    <div id="end">
+        <div id="prompt">
+            <div id="sect">
+                <h1 id="appil">Congratulations</h1>
+                <h2 id="winner"></h2>
+            </div>
+            <button id="continue" onclick="restart()">Restart</button>
+        </div>
+    </div>
+    <div id="stats">
+        <span id="status">Start</span>
+        <div class="flex">
+            <span id="user_score">0</span><span>  :  </span><span id="computer_score">0</span>
+        </div>
+    </div>
+    <div class="btns">
+        <button class="button" id="rock_btn" onclick="play(0)" ></button>
+        <button class="button" id="paper_btn" onclick="play(1)" ></button>
+        <button class="button" id="scissors_btn" onclick="play(2)" ></button>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
