@@ -129,8 +129,8 @@ button:hover{
         border: 5px solid;
     }
     button:hover{
-        height: 90px;
-        width: 90px;
+        height: 80px;
+        width: 80px;
     }
     #prompt{
         height: 100vh;
