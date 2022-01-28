@@ -6,7 +6,7 @@
 
 Website @[netlify smash cover cut](https://smashcovercut.netlify.app)
 
-### Having trouble makind a desicion, how about a calm game or RPS to settle the argument :)
+### Having trouble making a decision, how about a calm game or RPS to settle the argument :)
 
 ## Features
 
