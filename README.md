@@ -4,7 +4,7 @@
 
 [![sccgpv.png](https://i.postimg.cc/0N6cFr75/sccgpv.png)](https://postimg.cc/cKSR8xDP)
 
-### Having trouble makind a desicion, how about a calm game or RPS to settle the arguement :)
+### Having trouble makind a desicion, how about a calm game or RPS to settle the argument :)
 
 ## Features
 
